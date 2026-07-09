@@ -8,7 +8,7 @@ const PORT=8000
 DbConnection()
 app.use(
   cors({
-    origin: "https://webtellz.vercel.app/",
+    origin: "https://webtellz.vercel.app",
     credentials: true,
   })
 );
